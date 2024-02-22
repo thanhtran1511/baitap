@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.baitap1 {
+    height: 200px;
+    margin: 60px  30px 30px;
+    padding: 50px;
+    position: relative;
+    background-color: rgb(222, 222, 222);
+}
+
+.baitap1 h2 {
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-600%);
+    position: absolute;
+}
+
+.baitap1>span {
+    color: white;
+    background-color: rgb(96, 116, 180);
+    padding: 10px 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-300%);
+    position: absolute;
+}
+
+.baitap1 h1 {
+    color:  black;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.baitap1 h1 span {
+    color:  aqua;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.baitap1 h4 {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 0 10px;
+}
+
+.baitap2 {
+    height: 150px;
+    background-image: url(assests/bg\ blue.jpg);
+    background-size: cover;
+    padding: 30px;
+    margin: 60px 30px 30px 30px;
+    position: relative;
+}
+
+.baitap2 h2 {
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-450%);
+    position: absolute;
+}
+
+.baitap2 h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 170%;
+    text-align: center;
+    text-shadow: 0 0 1px black;
+}
+
+.baitap2 h5 {
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 100%;
+    text-align: center;
+    text-shadow: 0 0 1px black;
+}
+
+.button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    font-size: 100%;
+    background-color: rgb(49, 169, 224);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.baitap3 {
+    height: 350px;
+    background-color: #d3d3d3;
+    margin: 60px  30px 30px;
+    padding: 50px 30px;
+    position: relative;
+}
+
+.baitap3 h2 {
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-850%);
+    position: absolute;
+}
+
+.baitap3 .logo {
+    text-align: center;
+}
+
+.baitap3 h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+.baitap3 h5 {
+    margin: 20px 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.baitap3 .input {
+    position: relative;
+}
+
+.baitap3 .input input {
+    width: 350px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.baitap3 .input span {
+    color: #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-215%,-50%);
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+}
+
+.baitap3 button {
+    margin: 10px auto;
+    padding: 15px 20px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgb(61, 204, 204);
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.baitap4 {
+    height: 150px;
+    background-image: url(assests/bg\ blue.jpg);
+    margin: 60px  30px 30px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.baitap4 h2 {
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-420%);
+    position: absolute;
+}
+
+.baitap4 .box {
+    text-align: center;
+}
+
+.baitap4 .number {
+    color: white;
+    font-size: 150%;
+    font-weight: 700;
+    text-shadow: 0 0 1px black;
+}
+
+.baitap4 h6 {
+    margin-top: 10px;
+    color: white;
+    font-size: 90%;
+    font-weight: 100;
+    text-shadow: 0 0 1px black;
+}
+
+.baitap5 {
+    height: 550px;
+    margin: 60px  30px 30px;
+    padding: 20px;
+    position: relative;
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.baitap5 h2 {
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-1090%);
+    position: absolute;
+}
+
+.baitap5 .box {
+    max-width: 600px;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.baitap5 .box h1 {
+    font-size: 140%;
+}
+
+.baitap5 .box h5 {
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.baitap6 {
+    height: 200px;
+    margin: 60px  30px 30px;
+    padding: 20px;
+    position: relative;
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    justify-content: center;
+
+}
+
+.baitap6 h2 {
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-500%);
+    position: absolute;
+}
+
+.baitap6 .box {
+    max-width: 250px;
+    background-color: white;
+    padding: 30px;
+}
+
+.baitap6 .box h1 {
+    font-size: 90%;
+    font-weight: 100;
+}
+
+.baitap6 .box h6 {
+    font-size: 70%;
+    font-weight: 100;
+    margin-top: 20px;
+    line-height: 23px;
+}
+
+.baitap6 .box h6>span {
+    color: gray;
+}
