@@ -264,7 +264,6 @@ button {
     background-color: rgb(222, 222, 222);
     display: flex;
     justify-content: center;
-
 }
 
 .baitap6 h2 {
@@ -295,4 +294,214 @@ button {
 
 .baitap6 .box h6>span {
     color: gray;
+}
+
+.baitap7 {
+    height: 300px;
+    margin: 60px 30px 30px 30px;
+    line-height: 20px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.baitap7 h2 {
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-880%);
+    position: absolute;
+}
+
+.baitap7 .box  {
+    padding: 25px;
+    max-width: 20%;
+    background-color: black;
+}
+
+.baitap7 .box>span {
+    color: white;
+    background-color: rgb(96, 116, 180);
+    padding: 10px 30px;
+}
+
+.baitap7 .box h5 {
+    color: gray;
+    margin-top: 30px;
+    font-size: 80%;
+    font-weight: 300;
+}
+
+.baitap7 .box h1 {
+    color: white;
+    font-size: 90%;
+    font-weight: 500;
+}
+
+.baitap7 .box li {
+    color: gray;
+    margin-top: 5px;
+    font-size: 80%;
+    font-weight: 300;
+    list-style: none;
+}
+
+.baitap7 .box img {
+    width: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-300%,-50%);
+    position: absolute;
+}
+
+.baitap7 .box ul {
+    width: 150px;
+    padding: 10px 0;
+    border-bottom: 1px dotted gray;
+    position: relative;
+}
+
+.baitap7 .box ul>span {
+    margin-left: 30px;
+}
+
+.baitap8 {
+    height: 600px;
+    margin: 60px  30px 30px;
+    padding: 20px;
+    line-height: 20px;
+    background-color: rgb(222, 222, 222);
+    position: relative;
+}
+
+.baitap8 h2 {
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-1730%);
+    position: absolute;
+}
+
+.baitap8>h1 {
+    height: 50px;
+    color:  black;
+    font-size: 150%;
+    font-weight: 500;
+    text-align: center;
+    padding: 40px;
+}
+
+.baitap8 .box {
+    display: flex;
+    justify-content: center;
+}
+
+.baitap8 .box1 {
+    margin: 0px 20px;
+    padding: 50px 40px;
+    background-color: white;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px greenyellow;
+}
+
+.baitap8 .box1>h1 {
+    color:  black;
+    font-size: 100%;
+    font-weight: 500;
+}
+
+.baitap8 .box1>h5 {
+    padding: 20px 0;
+    color:  black;
+    font-size: 100%;
+    font-weight: 100;
+}
+
+.baitap8 .box1>h6 {
+    margin-top: 5px;
+    color:  aqua;
+    font-size: 70%;
+    font-weight: 100;
+}
+
+.baitap8 .box2 {
+    width: 50%;
+    margin: 0 20px;
+    padding: 0 40px;
+}
+
+.baitap8 .box2>h5 {
+    color:  black;
+    font-size: 100%;
+    font-weight: 100;
+}
+
+.baitap8 .box2>h1 {
+    margin: 20px 0;
+    color:  black;
+    font-size: 100%;
+    font-weight: 500;
+}
+
+.baitap9 {
+    height: 400px;
+    margin: 60px  30px 30px;
+    line-height: 20px;
+    background-color: rgb(222, 222, 222);
+    position: relative;
+}
+
+.baitap9 h2 {
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-1130%);
+    position: absolute;
+}
+
+.baitap9 .top {
+    height: 70px;
+    background-color: aqua;
+    padding: 40px;
+}
+
+.baitap9 .top>h1 {
+    color:  white;
+    font-size: 140%;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.baitap9 .bottom {
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.baitap9 .bottom .box {
+    width: 30%;
+    margin: -50px 20px 20px 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.baitap9 .bottom .box h1 {
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.baitap9 .bottom .box h5 {
+    margin-top: 10px;
+    color: gray;
+    font-size: 70%;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.baitap9 .bottom .box img {
+    margin-top: 10px;
 }
